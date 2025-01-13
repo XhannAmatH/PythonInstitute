@@ -1,3 +1,4 @@
-a = [0 for i in range(1,3)]
-
-print(a)
+list = [1,2,3]
+for v in range(len(list)):
+    list.insert(1, list[v])
+print(list)
